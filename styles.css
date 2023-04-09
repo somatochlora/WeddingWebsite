@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
-    background-color: #F2A81D;
+    background-color: white;
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -12,6 +12,11 @@ nav ul {
     list-style-type: none;
     justify-content: space-around;
     padding: 0;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 5px;
 }
 
 nav, section{
@@ -20,6 +25,7 @@ nav, section{
     border-radius: 5px;
     margin: 10px;
     width: auto;
+    flex-wrap: wrap;
 }
 
 .main-container {
@@ -27,11 +33,12 @@ nav, section{
     flex-direction: column;
     align-items: stretch;
     max-width: 900px;
-
+    background-color: #677ccb;
+    border-radius: 5px;
 }
 
 h3 {
-    background-color: #BF0F3E;
+    background-color: #677ccb;
     padding: 5px;
     border-radius: 5px;
     color: white;
@@ -49,5 +56,6 @@ h3 {
 }
 
 img {
-    width: 95%;
+    width: 97%;
+    margin: 10px;
 }
