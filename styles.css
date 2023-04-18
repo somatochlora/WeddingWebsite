@@ -55,9 +55,9 @@ h3 {
 }
 
 .question-frame {
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
-    background-color: #94A2D3;
+    background-color: #b0badd;
     border-radius: 5px;
 }
 
@@ -68,4 +68,31 @@ img {
 
 .importantp {
     text-align: center;
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+}
+
+.importanth {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.importantp a {
+    text-decoration: none;
+    color: rgb(220, 235, 253);
+}
+
+.importantp a:hover {
+    color: white;
+}
+
+a {
+    color: rgb(0, 37, 105);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
