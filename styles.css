@@ -1,5 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Satisfy&display=swap');
 body {
-    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-family: 'Crimson Text', serif;
     background-color: white;
     font-size: 20px;
     display: flex;
@@ -26,6 +28,7 @@ nav, section{
     margin: 10px;
     width: auto;
     flex-wrap: wrap;
+    z-index: 2;
 }
 
 .main-container {
@@ -42,6 +45,9 @@ h3 {
     padding: 5px;
     border-radius: 5px;
     color: white;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
 }
 
 .question {
@@ -58,4 +64,8 @@ h3 {
 img {
     width: 97%;
     margin: 10px;
+}
+
+.importantp {
+    text-align: center;
 }
